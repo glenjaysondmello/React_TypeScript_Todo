@@ -1,11 +1,9 @@
-Here is the **README.md** for the **Book Store App** in markdown format:
+Here is your **README.md** in markdown format:
 
 ```markdown
-# 📚 Book Store App
+# 📝 Todo List App
 
----
-
-## 📝 Table of Contents
+## 📚 Table of Contents
 
 1. [Project Description](#project-description)  
 2. [Features](#features)  
@@ -13,40 +11,41 @@ Here is the **README.md** for the **Book Store App** in markdown format:
 4. [Usage](#usage)  
 5. [Technologies Used](#technologies-used)  
 6. [Contributing](#contributing)  
-7. [License](#license)
+7. [License](#license)  
 
 ---
 
 ## 📖 Project Description
 
-The **Book Store App** is a React-based web application designed for book enthusiasts to browse, select, and purchase books effortlessly. This project emphasizes responsive design, intuitive user experience, and efficient cart management.
+The **Todo List App** is a simple and efficient web application designed to help users manage their daily tasks. Built with React and TypeScript using Vite for fast development, this app allows users to add, complete, and delete tasks while maintaining a clean and user-friendly interface. It also includes filter functionality to view all, active, or completed tasks.
 
 ---
 
 ## ✨ Features
 
-- Browse a curated collection of books.
-- Add books to the shopping cart.
-- Update book quantities in the cart.
-- Remove books from the cart.
-- Responsive and modern UI for seamless user experience across devices.
+- Add new tasks to the list.
+- Mark tasks as completed or active.
+- Filter tasks based on their status (All, Active, Completed).
+- Delete tasks that are completed.
+- Tasks are persisted in **localStorage** for persistence across sessions.
+- Responsive and modern UI.
 
 ---
 
 ## 🛠️ Installation
 
-Follow these steps to set up the project locally:
+To set up the project locally, follow these steps:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/book-store-app.git
+   git clone https://github.com/your-username/todo-list-app.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd book-store-app
+   cd todo-list-app
    ```
 
 3. Install dependencies:
@@ -58,7 +57,7 @@ Follow these steps to set up the project locally:
 4. Start the development server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 The application will be available at `http://localhost:3000/`.
@@ -67,26 +66,28 @@ The application will be available at `http://localhost:3000/`.
 
 ## 🚀 Usage
 
-1. Navigate to the homepage to browse available books.
-2. Click on a book to view more details.
-3. Add books to the cart by clicking the **Add to Cart** button.
-4. Access the cart to view or modify selected items.
-5. Proceed to checkout to complete the purchase.
+1. Open the homepage to view the Todo List.
+2. Add a new task by typing in the input box and clicking the **Add** button.
+3. Click on the checkboxes to mark tasks as completed or active.
+4. Filter tasks by status (All, Active, or Completed) using the navigation links.
+5. Delete completed tasks by clicking the **Delete** button next to the task.
 
 ---
 
 ## 🧰 Technologies Used
 
 - **React.js**: For building the user interface.
-- **CSS/SCSS**: For styling the application.
-- **React Router**: For navigation between pages.
-- **Context API / Redux (Optional)**: For state management (cart functionality).
+- **TypeScript**: For type safety and enhanced code quality.
+- **Vite**: For fast development and efficient bundling.
+- **CSS**: For styling the application.
+- **React Router**: For navigation between different views (All, Active, Completed).
+- **LocalStorage**: For storing tasks persistently.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Follow these steps to contribute:
+Contributions are welcome! To contribute to the project:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix:
@@ -107,7 +108,7 @@ Contributions are welcome! Follow these steps to contribute:
    git push origin feature-name
    ```
 
-5. Open a pull request in the original repository.
+5. Open a pull request with the changes.
 
 ---
 
@@ -122,4 +123,4 @@ This project is licensed under the [MIT License](LICENSE).
 For any inquiries, please reach out to [your-email@example.com](mailto:your-email@example.com).
 ```
 
-Copy and paste the above content into a **README.md** file for your **Book Store App** project.
+You can copy and paste this content into your **README.md** file in your project directory.
